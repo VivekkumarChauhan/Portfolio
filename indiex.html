@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vivekkumar Chauhan | AI & Data Science Developer</title>
+  <meta name="description" content="Portfolio of Vivekkumar Chauhan — AI & Data Science Developer building intelligent systems and automation pipelines." />
+  <meta name="color-scheme" content="dark light">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ░░ LOADER ░░ -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <div class="loader-logo">
+        <span class="loader-name">VIVEKKUMAR</span>
+        <span class="loader-bar-wrap"><span class="loader-bar"></span></span>
+        <span class="loader-sub">Initializing Portfolio...</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ░░ CURSOR ░░ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ░░ MOBILE MENU ░░ -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <button class="mobile-close" id="mobileClose" aria-label="Close menu">✕</button>
+    <nav class="mobile-nav">
+      <a href="#home"          class="mobile-link" data-mobile-link>Home</a>
+      <a href="#about"         class="mobile-link" data-mobile-link>About</a>
+      <a href="#skills"        class="mobile-link" data-mobile-link>Skills</a>
+      <a href="#experience"    class="mobile-link" data-mobile-link>Experience</a>
+      <a href="#projects"      class="mobile-link" data-mobile-link>Projects</a>
+      <a href="#achievements"  class="mobile-link" data-mobile-link>Achievements</a>
+      <a href="#research"      class="mobile-link" data-mobile-link>Research</a>
+      <a href="#contact"       class="mobile-link" data-mobile-link>Contact</a>
+    </nav>
+  </div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <header class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">
+      <span class="logo-first">VIVEK</span><span class="logo-last">KUMAR</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Awards</a></li>
+      <li><a href="#research">Research</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <span class="theme-icon-dark">☀︎</span>
+        <span class="theme-icon-light">☽</span>
+      </button>
+      <a href="mailto:vivekchauhan2385@gmail.com" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ░░ HERO ░░ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="container hero-container">
+      <div class="hero-left">
+        <div class="hero-eyebrow">
+          <span class="eyebrow-dot"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-heading">
+          <span class="hero-hello">Hello, I'm</span>
+          <span class="hero-name-line">
+            <em class="hero-name-gold">Vivek</em>kumar
+          </span>
+          <span class="hero-name-surname">Chauhan</span>
+        </h1>
+        <p class="hero-role">
+          <span class="role-bracket">[</span>
+          AI &amp; Data Science Developer
+          <span class="role-bracket">]</span>
+        </p>
+        <p class="hero-desc">
+          Computer Engineering student building intelligent systems, automation pipelines and cloud-based solutions that solve real-world problems — from AI-driven healthcare to market analytics.
+        </p>
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Work</span>
+            <svg width="16" height="16" viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linecap="round"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/vivek92"           class="social-pill" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://github.com/VivekkumarChauhan"      class="social-pill" target="_blank" rel="noopener">GitHub</a>
+          <a href="mailto:vivekchauhan2385@gmail.com"         class="social-pill">Email</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-card-wrap">
+          <div class="hero-float-badge badge-top">🏆 Hackathon Winner 2024</div>
+          <div class="stats-card">
+            <div class="stats-card-header">
+              <span class="stats-card-label">QUICK STATS</span>
+              <span class="stats-status-dot"></span>
+            </div>
+            <div class="stats-grid">
+              <div class="stat">
+                <span class="stat-num" data-count="3">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">AI Projects</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-count="2">0</span>
+                <span class="stat-label">Research Papers</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-count="6">0</span><span class="stat-plus">+</span>
+                <span class="stat-label">Certifications</span>
+              </div>
+              <div class="stat">
+                <span class="stat-num" data-count="3">0</span><span class="stat-plus">x</span>
+                <span class="stat-label">Hackathon Wins</span>
+              </div>
+            </div>
+            <div class="focus-chips">
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Deep Learning</span>
+              <span class="chip">NLP</span>
+              <span class="chip">Data Analytics</span>
+              <span class="chip">AWS Cloud</span>
+              <span class="chip">Automation</span>
+            </div>
+          </div>
+          <div class="hero-float-badge badge-bottom">📄 2 Published Papers</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </section>
+
+  <!-- ░░ MARQUEE ░░ -->
+  <div class="marquee-bar">
+    <div class="marquee-track" id="marqueeTrack">
+      <span class="m-item">Machine Learning</span><span class="m-sep">✦</span>
+      <span class="m-item">Deep Learning</span><span class="m-sep">✦</span>
+      <span class="m-item">NLP</span><span class="m-sep">✦</span>
+      <span class="m-item">Data Science</span><span class="m-sep">✦</span>
+      <span class="m-item">AI Development</span><span class="m-sep">✦</span>
+      <span class="m-item">Cloud Computing</span><span class="m-sep">✦</span>
+      <span class="m-item">Python</span><span class="m-sep">✦</span>
+      <span class="m-item">TensorFlow</span><span class="m-sep">✦</span>
+      <span class="m-item">Computer Vision</span><span class="m-sep">✦</span>
+      <span class="m-item">Automation</span><span class="m-sep">✦</span>
+      <span class="m-item">Machine Learning</span><span class="m-sep">✦</span>
+      <span class="m-item">Deep Learning</span><span class="m-sep">✦</span>
+      <span class="m-item">NLP</span><span class="m-sep">✦</span>
+      <span class="m-item">Data Science</span><span class="m-sep">✦</span>
+      <span class="m-item">AI Development</span><span class="m-sep">✦</span>
+      <span class="m-item">Cloud Computing</span><span class="m-sep">✦</span>
+      <span class="m-item">Python</span><span class="m-sep">✦</span>
+      <span class="m-item">TensorFlow</span><span class="m-sep">✦</span>
+      <span class="m-item">Computer Vision</span><span class="m-sep">✦</span>
+      <span class="m-item">Automation</span><span class="m-sep">✦</span>
+    </div>
+  </div>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">01 — About Me</span>
+        <h2 class="section-title">The Mind <span class="title-outline">Behind</span><br>the Machine</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-frame">
+            <div class="about-photo-placeholder">
+              <img src="" alt="Vivekkumar Chauhan" style="width:100%;height:auto;object-fit:cover;border-radius:18px;box-shadow:0 4px 32px rgba(0,0,0,0.10);" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+              <span class="about-initials" style="display:none;">VIVEK</span>
+              <span class="about-initials-sub" style="display:none;">Chauhan</span>
+            </div>
+            <div class="about-frame-deco"></div>
+          </div>
+          <div class="about-mini-cards">
+            <div class="mini-card">
+              <span class="mini-icon"><i class="fas fa-robot"></i></span>
+              <span class="mini-text">AI / ML Expert</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-icon"><i class="fas fa-chart-line"></i></span>
+              <span class="mini-text">Data Scientist</span>
+            </div>
+            <div class="mini-card">
+              <span class="mini-icon"><i class="fas fa-flask"></i></span>
+              <span class="mini-text">Researcher</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <h3 class="about-subtitle">AI Developer &amp; Data Science Enthusiast</h3>
+          <p>I'm a Computer Engineering student with a minor in <strong>Data Science</strong> at Theem College of Engineering, driven by a passion for building intelligent systems that solve real-world problems.</p>
+          <p>Currently working as an <strong class="text-gold">AI & Automation Developer</strong> at Optimus Nexgen Wealth Private Limited, where I engineer automated data pipelines and AI-powered workflows that deliver real-time insights at scale.</p>
+          <p>My work spans AI-driven healthcare applications, computer vision research, and market sentiment analysis — always pushing the boundary of what intelligent systems can achieve.</p>
+          <div class="about-tags">
+            <span class="about-tag">AI/ML Engineering</span>
+            <span class="about-tag">Data Analytics</span>
+            <span class="about-tag">NLP & CV</span>
+            <span class="about-tag">Cloud Deployment</span>
+            <span class="about-tag">Research</span>
+            <span class="about-tag">Automation</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section id="skills" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">02 — Technical Arsenal</span>
+        <h2 class="section-title">Skills &amp; <span class="title-outline">Technologies</span></h2>
+        <div class="section-line"></div>
+      </div>
+
+      <!-- Skills Filter Tabs -->
+      <div class="skills-tabs reveal" id="skillsTabs">
+        <button class="skills-tab active" data-filter="all">All</button>
+        <button class="skills-tab" data-filter="ai">AI / ML</button>
+        <button class="skills-tab" data-filter="data">Data Science</button>
+        <button class="skills-tab" data-filter="web">Web & Dev</button>
+        <button class="skills-tab" data-filter="cloud">Cloud & DB</button>
+        <button class="skills-tab" data-filter="tools">Tools</button>
+      </div>
+
+      <div class="skills-bento reveal" id="skillsBento">
+
+        <!-- AI/ML Card — large -->
+        <div class="skill-block skill-block-lg" data-category="ai">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-robot"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">AI &amp; Machine Learning</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-hot">TensorFlow</span>
+            <span class="pill pill-hot">Keras</span>
+            <span class="pill pill-hot">PyTorch</span>
+            <span class="pill">scikit-learn</span>
+            <span class="pill">OpenCV</span>
+            <span class="pill pill-hot">OpenAI API</span>
+            <span class="pill">NLTK</span>
+            <span class="pill">spaCy</span>
+            <span class="pill">Feature Eng.</span>
+            <span class="pill">Model Deploy</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        <!-- Data Science Card -->
+        <div class="skill-block" data-category="data">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-chart-line"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">Data Science</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-hot">Pandas</span>
+            <span class="pill pill-hot">NumPy</span>
+            <span class="pill">Matplotlib</span>
+            <span class="pill">Seaborn</span>
+            <span class="pill">Plotly</span>
+            <span class="pill">A/B Testing</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skill-block" data-category="web">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-code"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">Programming</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-hot">Python</span>
+            <span class="pill">R</span>
+            <span class="pill">SQL</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">PHP</span>
+            <span class="pill">Bash</span>
+            <span class="pill">HTML / CSS</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-block" data-category="web">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-cogs"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">Frameworks</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-hot">Flask</span>
+            <span class="pill">RESTful API</span>
+            <span class="pill">JSON</span>
+            <span class="pill">BeautifulSoup</span>
+            <span class="pill">Selenium</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        <!-- Practices -->
+        <div class="skill-block" data-category="tools">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-sync-alt"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">Practices</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Agile / Scrum</span>
+            <span class="pill">CI/CD</span>
+            <span class="pill">Data Cleaning</span>
+            <span class="pill">Storytelling</span>
+            <span class="pill">GDPR</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        <!-- Cloud & DB — large -->
+        <div class="skill-block skill-block-lg" data-category="cloud">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-cloud"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">Cloud &amp; Databases</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill pill-hot">AWS EC2/S3</span>
+            <span class="pill">SageMaker</span>
+            <span class="pill">Render</span>
+            <span class="pill">Heroku</span>
+            <span class="pill pill-hot">MySQL</span>
+            <span class="pill">MongoDB</span>
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">SQLite</span>
+            <span class="pill">XAMPP</span>
+            <span class="pill">Docker</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-block" data-category="tools">
+          <div class="skill-block-header">
+            <span class="skill-block-icon" style="font-size:2rem;vertical-align:middle;margin-right:0.7rem;"><i class="fas fa-tools"></i></span>
+            <h4 class="skill-block-title" style="display:inline-block;vertical-align:middle;">Tools &amp; Platforms</h4>
+          </div>
+          <div class="skill-pills">
+            <span class="pill">Jupyter</span>
+            <span class="pill">Google Colab</span>
+            <span class="pill">Tableau</span>
+            <span class="pill pill-hot">Power BI</span>
+            <span class="pill">Anaconda</span>
+            <span class="pill">Postman</span>
+            <span class="pill">Excel</span>
+            <span class="pill">Git / GitHub</span>
+          </div>
+          <div class="skill-block-glow"></div>
+        </div>
+
+        
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EXPERIENCE ░░ -->
+  <section id="experience" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">03 — Experience</span>
+        <h2 class="section-title">My Professional <span class="title-outline">Journey</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="tl-marker">
+            <div class="tl-dot"></div>
+            <div class="tl-line"></div>
+          </div>
+          <div class="tl-content">
+            <div class="tl-date">May 2025 — Present</div>
+            <div class="tl-card">
+              <div class="tl-card-top">
+                <div>
+                  <h3 class="tl-role">AI &amp; Automation Developer</h3>
+                  <div class="tl-company">Optimus Nexgen Wealth Pvt. Ltd. · Ghatkopar, Mumbai</div>
+                </div>
+                <span class="tl-badge">Internship</span>
+              </div>
+              <p class="tl-desc">Engineered automated data integration pipelines processing and updating real-time data across internal systems. Developed an AI-assisted PDF generation workflow creating single daily reports that dynamically reflect all data changes — ensuring accurate, up-to-date insights for operational use.</p>
+              <div class="tl-tags">
+                <span class="tl-tag">Python</span>
+                <span class="tl-tag">AI Automation</span>
+                <span class="tl-tag">PDF Generation</span>
+                <span class="tl-tag">Data Pipelines</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section id="projects" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">04 — Projects</span>
+        <h2 class="section-title">Featured <span class="title-outline">Work</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-thumb project-thumb-1">
+            <span class="project-emoji"><i class="fas fa-notes-medical"></i></span>
+            <div class="project-thumb-overlay"></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">AI · Healthcare · Mobile</div>
+            <h3 class="project-title">Sehat Sathi</h3>
+            <p class="project-sub">AI-Powered Healthcare Application</p>
+            <p class="project-desc">A cutting-edge AI-driven healthcare platform addressing challenges of delivering accurate and timely medical support in underserved areas. Integrates ML models, NLP chatbots, and a Flutter mobile interface to enhance diagnostic precision.</p>
+            <div class="project-tech">
+              <span class="tech">Flutter</span>
+              <span class="tech">Python</span>
+              <span class="tech">NLP</span>
+              <span class="tech">Deep Learning</span>
+              <span class="tech">Flask</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-status status-published">📄 Published Research</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-thumb project-thumb-2">
+            <span class="project-emoji"><i class="fas fa-chart-bar"></i></span>
+            <div class="project-thumb-overlay"></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">Data Analytics · Trading · Finance</div>
+            <h3 class="project-title">Market Sentiment</h3>
+            <p class="project-sub">Behavior Analytics Assignment</p>
+            <p class="project-desc">Advanced sentiment-driven trading behavior analysis using Bitcoin Fear & Greed Index and Hyperliquid trader data. Implemented statistical modeling, correlation heatmaps, and time-series analytics to derive actionable insights.</p>
+            <div class="project-tech">
+              <span class="tech">Python</span>
+              <span class="tech">Pandas</span>
+              <span class="tech">Matplotlib</span>
+              <span class="tech">Seaborn</span>
+              <span class="tech">Colab</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-status status-completed">✅ Completed</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-thumb project-thumb-3">
+            <span class="project-emoji"><i class="fas fa-flask"></i></span>
+            <div class="project-thumb-overlay"></div>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">AI · NLP · Research</div>
+            <h3 class="project-title">AstraMind</h3>
+            <p class="project-sub">AI-Powered Research Assistant</p>
+            <p class="project-desc">An NLP-powered research assistant processing user queries using OpenAI models. Fetches relevant data and advancements from various fields including quantum computing with a scalable CLI architecture.</p>
+            <div class="project-tech">
+              <span class="tech">Python</span>
+              <span class="tech">OpenAI API</span>
+              <span class="tech">NLP</span>
+              <span class="tech">CLI</span>
+              <span class="tech">Modular Arch.</span>
+            </div>
+            <div class="project-footer">
+              <span class="project-status status-completed">✅ Completed</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ ACHIEVEMENTS ░░ -->
+  <section id="achievements" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">05 — Achievements</span>
+        <h2 class="section-title">Honours &amp; <span class="title-outline">Recognition</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="achievements-grid">
+        <div class="award-card reveal">
+          <div class="award-badge">WINNER</div>
+          <span class="award-icon"><i class="fas fa-trophy"></i></span>
+          
+          <h3 class="award-title">Theem Hackathon 2024</h3>
+          <p class="award-org">Theem College of Engineering</p>
+          <p class="award-desc">Won the prestigious hackathon showcasing innovation in AI-powered solutions.</p>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-badge">RUNNER-UP</div>
+            <span class="award-icon"><i class="fas fa-trophy"></i></span>
+          <h3 class="award-title">Theem Hackathon 2023</h3>
+          <p class="award-org">Theem College of Engineering</p>
+          <p class="award-desc">First runner-up at the annual innovation hackathon competition.</p>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-badge">TOP 10</div>
+            <span class="award-icon"><i class="fas fa-medal"></i></span>
+          <h3 class="award-title">ACE Hacks</h3>
+          <p class="award-org">Atharva College of Engineering</p>
+          <p class="award-desc">Secured Top 10 position among all competing teams at the inter-college hackathon.</p>
+        </div>
+        <div class="award-card reveal">
+          <div class="award-badge">AWARD</div>
+            <span class="award-icon"><i class="fas fa-star"></i></span>
+          <h3 class="award-title">Mini Project Competition</h3>
+          <p class="award-org">First Runner-Up</p>
+          <p class="award-desc">Certification of First Runner-Up in the Mini Project Presentation Competition.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EDUCATION ░░ -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">06 — Education</span>
+        <h2 class="section-title">Academic <span class="title-outline">Foundation</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+           <span class="edu-icon"><i class="fas fa-graduation-cap"></i></span>
+          <h3 class="edu-degree">Bachelor of Engineering</h3>
+          <p class="edu-major">Computer Engineering (Minor: Data Science)</p>
+          <p class="edu-school">Theem College of Engineering</p>
+          <p class="edu-dates">2022 — Present</p>
+          <span class="edu-status">In Progress</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ RESEARCH ░░ -->
+  <section id="research" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">07 — Research</span>
+        <h2 class="section-title">Published <span class="title-outline">Papers</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="research-list">
+        <div class="research-item reveal">
+          <div class="ri-num">01</div>
+          <div class="ri-body">
+            <h3 class="ri-title">Sehat Sathi — AI-Powered Healthcare Application</h3>
+            <p class="ri-conf">4th International Conference on Trends n Herald in Engineering Excellence and Metamorphosis · TCOE, April 2025</p>
+          </div>
+          <div class="ri-arrow">→</div>
+        </div>
+        <div class="research-item reveal">
+          <div class="ri-num">02</div>
+          <div class="ri-body">
+            <h3 class="ri-title">Glaucoma Detection using Deep Learning (VGG-16)</h3>
+            <p class="ri-conf">4th International Conference on Trends n Herald in Engineering Excellence and Metamorphosis · TCOE, April 2025</p>
+          </div>
+          <div class="ri-arrow">→</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CERTIFICATIONS ░░ -->
+  <section id="certifications" class="section section-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">08 — Certifications</span>
+        <h2 class="section-title">Credentials &amp; <span class="title-outline">Courses</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card reveal"><span class="cert-icon"><i class="fas fa-robot"></i></span><div><p class="cert-name">Artificial Intelligence Fundamentals</p><p class="cert-by">IBM SkillsBuild</p></div></div>
+        <div class="cert-card reveal"><span class="cert-icon"><i class="fas fa-chart-line"></i></span><div><p class="cert-name">Google Data Analysis — 8 Course Certificate</p><p class="cert-by">Coursera</p></div></div>
+        <div class="cert-card reveal"><span class="cert-icon"><i class="fas fa-chart-bar"></i></span><div><p class="cert-name">Tata Data Visualisation Job Simulation</p><p class="cert-by">Forage · August 2024</p></div></div>
+        <div class="cert-card reveal"><span class="cert-icon"><i class="fab fa-python"></i></span><div><p class="cert-name">Python Programming for Beginners</p><p class="cert-by">Udemy</p></div></div>
+        <div class="cert-card reveal"><span class="cert-icon"><i class="fas fa-leaf"></i></span><div><p class="cert-name">Green Skills and Artificial Intelligence</p><p class="cert-by">Government Initiative</p></div></div>
+        <div class="cert-card reveal"><span class="cert-icon"><i class="fas fa-cloud"></i></span><div><p class="cert-name">AWS Academy — Data Engineering Badge</p><p class="cert-by">Amazon Web Services</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">09 — Contact</span>
+        <h2 class="section-title">Let's <span class="title-outline">Connect</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3 class="contact-heading">Open to Opportunities</h3>
+          <p class="contact-sub">Whether you're looking to collaborate on AI projects, need a skilled developer, or want to discuss research — I'd love to hear from you.</p>
+          <div class="contact-items">
+            <a href="mailto:vivekchauhan2385@gmail.com" class="contact-item">
+              <span class="ci-icon">✉</span>
+              <div><span class="ci-label">Email</span><span class="ci-val">vivekchauhan2385@gmail.com</span></div>
+            </a>
+            <a href="https://linkedin.com/in/vivek92" class="contact-item" target="_blank" rel="noopener">
+              <span class="ci-icon">in</span>
+              <div><span class="ci-label">LinkedIn</span><span class="ci-val">linkedin.com/in/vivek92</span></div>
+            </a>
+            <a href="https://github.com/VivekkumarChauhan" class="contact-item" target="_blank" rel="noopener">
+              <span class="ci-icon">GH</span>
+              <div><span class="ci-label">GitHub</span><span class="ci-val">VivekkumarChauhan</span></div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm" onsubmit="handleFormSubmit(event)">
+            <div class="form-row">
+              <div class="form-field">
+                <label>Name</label>
+                <input type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-field">
+                <label>Email</label>
+                <input type="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-field">
+              <label>Subject</label>
+              <input type="text" placeholder="What's this about?" />
+            </div>
+            <div class="form-field">
+              <label>Message</label>
+              <textarea rows="5" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg width="16" height="16" viewBox="0 0 16 16"><path d="M2 8l12-5-5 12-2-4-5-3z" stroke="currentColor" stroke-width="1.5" fill="none" stroke-linejoin="round"/></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-first">VIVEK</span><span class="logo-last">KUMAR</span>
+      </div>
+      <p class="footer-text">© 2025 Vivekkumar Chauhan · AI &amp; Data Science Developer</p>
+      <div class="footer-socials">
+        <a href="https://linkedin.com/in/vivek92"          class="social-link" target="_blank" rel="noopener">in</a>
+        <a href="https://github.com/VivekkumarChauhan"     class="social-link" target="_blank" rel="noopener">GH</a>
+        <a href="mailto:vivekchauhan2385@gmail.com"        class="social-link">@</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
