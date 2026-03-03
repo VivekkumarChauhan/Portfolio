@@ -154,6 +154,8 @@ body {
   gap: 1.5rem;
   padding: 2rem;
   text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .mobile-overlay.open { display: flex; }
 .mobile-nav {
@@ -162,6 +164,8 @@ body {
   gap: 1rem;
   align-items: center;
   width: 100%;
+  max-width: 100%;
+  overflow: visible;
 }
 .mobile-close {
   position: absolute; top: 1.5rem; right: 1.8rem;
@@ -180,7 +184,9 @@ body {
 /* Mobile Hire Me button styling */
 .mobile-nav .nav-cta {
   display: inline-block !important;
-  margin-top: 1.5rem;
+  visibility: visible !important;
+  opacity: 1 !important;
+  margin-top: 1.5rem !important;
   padding: 0.65rem 1.6rem !important;
   border: 2px solid var(--gold) !important;
   color: var(--gold) !important;
@@ -193,6 +199,9 @@ body {
   box-shadow: 0 2px 12px rgba(180,138,44,0.10) !important;
   border-radius: 32px !important;
   transition: all 0.3s !important;
+  pointer-events: auto !important;
+  position: relative !important;
+  z-index: 201 !important;
 }
 
 /* ── NAVBAR ───────────────────────────────────────────────── */
