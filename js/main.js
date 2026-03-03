@@ -157,10 +157,15 @@ function closeMobile() {
 hamburger   && hamburger.addEventListener('click', openMobile);
 mobileClose && mobileClose.addEventListener('click', closeMobile);
 
-// Close on link click
+// Close on link or button click
 document.querySelectorAll('[data-mobile-link]').forEach(a => {
   a.addEventListener('click', closeMobile);
 });
+// Also close on nav-cta in mobile overlay
+const mobileNavCta = document.querySelector('.mobile-nav .nav-cta');
+if (mobileNavCta) {
+  mobileNavCta.addEventListener('click', closeMobile);
+}
 
 /* ── SKILLS FILTER TABS ─────────────────────────────────────── */
 const skillsTabs  = document.getElementById('skillsTabs');

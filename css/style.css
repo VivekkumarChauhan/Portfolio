@@ -177,6 +177,24 @@ body {
 }
 .mobile-link:hover { color: var(--gold); }
 
+/* Mobile Hire Me button styling */
+.mobile-nav .nav-cta {
+  display: inline-block !important;
+  margin-top: 1.5rem;
+  padding: 0.65rem 1.6rem !important;
+  border: 2px solid var(--gold) !important;
+  color: var(--gold) !important;
+  background: var(--bg) !important;
+  font-size: 0.85rem !important;
+  letter-spacing: 1.5px !important;
+  text-transform: uppercase !important;
+  font-weight: 700 !important;
+  font-family: 'Outfit', sans-serif !important;
+  box-shadow: 0 2px 12px rgba(180,138,44,0.10) !important;
+  border-radius: 32px !important;
+  transition: all 0.3s !important;
+}
+
 /* ── NAVBAR ───────────────────────────────────────────────── */
 .navbar {
   position: fixed; top: 0; left: 0; right: 0;
@@ -1037,7 +1055,6 @@ body {
   .hamburger { display: flex; }
   /* Hide nav-cta in navbar, but show in mobile overlay */
   .nav-cta { display: none; }
-  .mobile-nav .nav-cta { display: inline-block; margin-top: 1rem; padding: 0.6rem 1.2rem; }
   section.section { padding: 4.5rem 0; }
   .form-row { grid-template-columns: 1fr; }
   .footer-inner { flex-direction: column; text-align: center; }
